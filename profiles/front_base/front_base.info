@@ -1,0 +1,69 @@
+name = Front Base D7
+description = Front.no default Drupal 7 development profile
+
+version = 7.x-1.x
+core = 7.x
+
+
+; Modules from standard.info
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = php
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+
+; Contrib
+dependencies[] = admin
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = date_views
+dependencies[] = diff
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = features
+dependencies[] = field_group
+dependencies[] = libraries
+dependencies[] = link
+dependencies[] = references
+dependencies[] = node_reference
+dependencies[] = user_reference
+dependencies[] = pathauto
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = strongarm
+dependencies[] = colorbox
+dependencies[] = token
+dependencies[] = transliteration
+dependencies[] = imageapi
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = webform
+dependencies[] = wysiwyg
+
+
+;Features
+
+
+
+files[] = front_base.profile
